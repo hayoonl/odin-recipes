@@ -1,0 +1,60 @@
+/*Stylesheet for "My Korean Comfort Foods" Pages
+
+Index: 
+    Links
+    Navigation Buttons
+    General Typography
+    Images
+*/
+
+/********************************************/
+
+/*Links*/
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+}
+
+/*Navigation Buttons*/
+button {
+    color: rgb(57, 66, 153);
+    font-weight: 700;
+}
+
+/*General*/
+body {
+    text-align: left;
+    font-family: Garamond;
+    background: linear-gradient(180deg, #FFEEEE, #8cd48d)
+}
+
+h1,
+h2 {
+    color: rgb(190, 107, 107)
+}
+
+h1 {
+    text-align: center;
+}
+
+/*Images*/
+
+img {
+    border: 5px solid #000;
+    margin: 0px 20px 20px 20px;
+}
+
+img.home {
+    float: left;
+    height: 200px;
+    width: auto;
+    margin-right: 30px;
+}
+
+img.child {
+    float: right;
+    height: 400px;
+    width: auto;
+}
